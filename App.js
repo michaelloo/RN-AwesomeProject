@@ -9,7 +9,7 @@
 import React, { useState } from 'react';
 import type { Node } from 'react';
 import { SafeAreaView, View, Text } from 'react-native';
-import PresentationalContext from './PresentationalContext';
+import Home from './Home';
 
 const App: () => Node = () => {
   const [myState, setMyState] = useState("Lorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusmod " +
@@ -23,7 +23,7 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <PresentationalContext updateState = {updateText} myState = {myState} />
+      <Home />
     </SafeAreaView>
   );
 };
