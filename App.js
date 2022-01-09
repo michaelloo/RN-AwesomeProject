@@ -10,6 +10,7 @@ import React, { useState } from 'react';
 import type { Node } from 'react';
 import { SafeAreaView, View, Text } from 'react-native';
 import Home from './Home';
+import List from './List';
 
 const App: () => Node = () => {
   const [myState, setMyState] = useState("Lorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusmod " +
@@ -23,7 +24,7 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <Home />
+      <List />
     </SafeAreaView>
   );
 };
