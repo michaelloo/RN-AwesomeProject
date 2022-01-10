@@ -11,6 +11,7 @@ import type { Node } from 'react';
 import { SafeAreaView, View, Text } from 'react-native';
 import Home from './Home';
 import List from './List';
+import Inputs from './Inputs';
 
 const App: () => Node = () => {
   const [myState, setMyState] = useState("Lorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusmod " +
@@ -24,7 +25,7 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <List />
+      <Inputs />
     </SafeAreaView>
   );
 };
