@@ -13,6 +13,7 @@ import Home from './Home';
 import List from './List';
 import Inputs from './Inputs';
 import ScrollViewExample from './ScrollViewExample'
+import ImageExample from './ImageExample';
 
 const App: () => Node = () => {
   const [myState, setMyState] = useState("Lorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusmod " +
@@ -26,7 +27,7 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <ScrollViewExample />
+      <ImageExample />
     </SafeAreaView>
   );
 };
